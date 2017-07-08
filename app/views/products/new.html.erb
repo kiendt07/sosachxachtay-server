@@ -1,0 +1,8 @@
+<%= form_for @product do |f| %>
+  <%= f.text_field :category_id, placeholder: "category id" %>
+  <%= f.text_field :name, placeholder: "name" %>
+  <%= f.text_field :attr1, placeholder: "attr1" %>
+  <%= f.text_field :attr2, placeholder: "attr2" %>
+  <%= f.text_field :photo_url, placeholder: "photo url" %>
+  <%= f.submit %>
+<% end %>
